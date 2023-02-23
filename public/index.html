@@ -6,6 +6,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+      <link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <style>
+        /*  滚动条样式       */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 1px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #25A4bb;
+            border-radius: 6px;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #DCDFE6;
+            border-radius: 3px;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
   </head>
   <body>
     <noscript>
