@@ -450,6 +450,7 @@ getAllUser({page:1}).then(res=>{
   //添加到textarea9中
   for(let i = 0; i < res.data.length; i++){
     option.value.push({value:res.data[i].uId,label:res.data[i].uName})
+    console.log(option.value)
   }
 })
 const handleEdit = (index, row) => {

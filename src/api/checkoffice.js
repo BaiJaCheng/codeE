@@ -1,11 +1,10 @@
 import request from "../../utils/request";
 
 //获取全部由会议室
-export function getAllOffice(params) {
+export function getAllCheckOffice() {
     return request({
         url: "office/getAllCheckOffice.php",
         method: "get",
-         params
     });
 }
 
